@@ -1,0 +1,19 @@
+* {
+    background-color: #168ec9;
+    text-align: center;
+}
+
+.hover {
+    color: #ffffff;
+    font-size: xx-large;
+}
+.hover:hover{
+    color: black;
+}
+.quote-1{
+    color: #ffffff;
+}
+
+.picture img{
+    max-width: 300px;
+}
