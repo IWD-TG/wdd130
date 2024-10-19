@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+
+
 #content {
+    font-family: 'Roboto','Arial','sans-serif';
+    font-size: 22px;
     max-width: 1600px;
     margin: 0 auto;
+    padding: 0;
 }
 nav a {
     text-align: center;
     color: #1C2321;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #EFF2C0;
     color: #1C2321;
     text-decoration: none;
+    padding: 35px;
+}
+.home-title{
+    font-family: 'Montserrat','sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 .home-title h4{
     color:#A4BAB7;
@@ -26,57 +40,71 @@ nav a:hover{
 }
 main section{
     text-align: center;
-    
 }
 #background{
     height: 725px;
     background-color: #BEA57D;
-
 }
 body{
     background-color: #EFF2C0;
-    
 }
 header{
     background-color: #BEA57D;
-
 }
 .book{
     background-color: #EFF2C0;
     color:#1C2321;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #1C2321;
     color:#A4BAB7;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #1C2321;
     color: #A4BAB7;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .join:hover{
     background-color: #1C2321;
     color: #BEA57D;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 .msg{
     background-color: #1C2321;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
+    font-family: 'Montserrat','sans-serif';
     color: #A4BAB7;
 }
 .msg p{
     color: #A4BAB7;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #BEA57D;
     color: #1C2321;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #1C2321;
@@ -86,15 +114,36 @@ footer a:hover{
     color: #A4BAB7;
     text-decoration: none;
 }
-.icon{
-    width: 80px;
-}
 footer p{
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+#icon{
+    width: 80px;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #000000;
 }
