@@ -124,12 +124,14 @@ header {
     margin-top: 10px;
 }
 
-.book:hover,
-.join:hover {
+.book:hover {
     background-color: #1C2321;
     color: #A4BAB7;
 }
-
+.join:hover{
+    background-color: #A4BAB7;
+    color: #1C2321;
+}
 /* Message Box */
 .msg {
     background-color: #1C2321;
