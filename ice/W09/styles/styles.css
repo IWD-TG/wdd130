@@ -1,0 +1,27 @@
+body{
+    width: 33%;
+    justify-self: center;
+    justify-items: center;
+}
+body .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: blue;
+    border: 4px;
+    overflow: hidden;
+}
+.A{
+    grid-column: 1/2;
+}
+.B{
+    grid-column: 2/3;
+}
+.C{
+    grid-column: 3/4;
+}
+.text{ 
+    width: 40%;
+}
+.scroll{
+    overflow: auto;
+}
