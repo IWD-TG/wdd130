@@ -75,6 +75,7 @@ nav a:hover {
     text-align: center;
 }
 
+
 #hero-msg h1 {
     text-align: center;
 }
@@ -244,6 +245,63 @@ header nav{
 /* General Styles */
 h2 {
     margin: 0;
+}
+
+/* contact page css*/
+#hero-msg2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-top: 100px;
+    text-align: center;}
+
+/* Contact Page Grid */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+/* Guide Profile */
+.guide-profile {
+    background-color: #1C2321;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.guide-profile img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.guide-profile h2 {
+    font-size: 1.5em;
+    color: #BEA57D;
+    margin-bottom: 10px;
+}
+
+.guide-profile p {
+    font-size: 1em;
+    color: #BEA57D;
+    line-height: 1.4em;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .guide-profile img {
+        max-width: 150px;
+    }
 }
 
 @media screen and (max-width: 900px) {
