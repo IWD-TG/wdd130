@@ -292,6 +292,59 @@ h2 {
     line-height: 1.4em;
 }
 
+/*wwr page 2 css... im done with renaming */
+.contact-us-grid {
+    display: grid;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact-us-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contact-us-button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 /* Responsive Adjustments */
 @media screen and (max-width: 900px) {
     .contact-grid {
